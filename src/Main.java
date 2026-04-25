@@ -97,9 +97,13 @@ public class Main {
 //        Pro14 pro14 = new Pro14();
 //        System.out.println(pro14.longestCommonPrefix(new String[]{"app", "appl", "apple", "ap", "apply"}));
 
-        Pro139 pro139 = new Pro139();
-        System.out.println(pro139.wordBreak( "catsandog", new ArrayList<String>(Arrays.asList("cats","dog","sand","and","cat"))));
+//        Pro139 pro139 = new Pro139();
+//        System.out.println(pro139.wordBreak( "catsandog", new ArrayList<String>(Arrays.asList("cats","dog","sand","and","cat"))));
 
+
+        String s = "axc", t = "ahbgdc";
+
+        System.out.println("Pro 392: " + new Pro392().isSubsequence(s, t) );
     }
 
 
