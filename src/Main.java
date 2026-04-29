@@ -101,9 +101,14 @@ public class Main {
 //        System.out.println(pro139.wordBreak( "catsandog", new ArrayList<String>(Arrays.asList("cats","dog","sand","and","cat"))));
 
 
-        String s = "axc", t = "ahbgdc";
+//        String s = "axc", t = "ahbgdc";
+//
+//        System.out.println("Pro 392: " + new Pro392().isSubsequence(s, t) );
 
-        System.out.println("Pro 392: " + new Pro392().isSubsequence(s, t) );
+        int[] nums = {-1,0,1,2,-1,-4};
+
+        System.out.println("Pro 15: " + new Pro15().threeSum(nums) );
+
     }
 
 
