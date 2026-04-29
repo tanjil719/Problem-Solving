@@ -105,9 +105,16 @@ public class Main {
 //
 //        System.out.println("Pro 392: " + new Pro392().isSubsequence(s, t) );
 
-        int[] nums = {-1,0,1,2,-1,-4};
+//        int[] nums = {-1,0,1,2,-1,-4};
+//
+//        System.out.println("Pro 15: " + new Pro15().threeSum(nums) );
 
-        System.out.println("Pro 15: " + new Pro15().threeSum(nums) );
+
+        int target = 213;
+
+        int[] nums = {12,28,83,4,25,26,25,2,25,25,25,12};
+
+        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
     }
 
