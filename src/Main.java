@@ -110,11 +110,15 @@ public class Main {
 //        System.out.println("Pro 15: " + new Pro15().threeSum(nums) );
 
 
-        int target = 213;
+//        int target = 213;
+//
+//        int[] nums = {12,28,83,4,25,26,25,2,25,25,25,12};
+//
+//        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
-        int[] nums = {12,28,83,4,25,26,25,2,25,25,25,12};
+        String s = "abcabcbb";
+        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
 
-        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
     }
 
