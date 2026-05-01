@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        String s = "A man, a plan, a canal: Panama";
@@ -116,8 +113,13 @@ public class Main {
 //
 //        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
-        String s = "abcabcbb";
-        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
+//        String s = "abcabcbb";
+//        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
+
+        String s = "barfoofoobarthefoobarman";
+        String[] words = {"bar", "foo", "the"};
+
+        System.out.println("Pro 30: " + new Pro30().findSubstring(s, words));
 
 
     }
@@ -133,13 +135,13 @@ public class Main {
 //
 //        s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 //        StringBuilder builder = new StringBuilder(s);
-////        int fastPointer = s.length()-1;
-////        for (int i = 0; i<s.length()/2; i++){
-////            if (s.charAt(i)!= s.charAt(fastPointer)){
-////                return false;
-////            }
-////            fastPointer = fastPointer-1;
-////        }
+/// /        int fastPointer = s.length()-1;
+/// /        for (int i = 0; i<s.length()/2; i++){
+/// /            if (s.charAt(i)!= s.charAt(fastPointer)){
+/// /                return false;
+/// /            }
+/// /            fastPointer = fastPointer-1;
+/// /        }
 //
 //
 //        if (s.compareTo(builder.reverse().toString()) == 0){
