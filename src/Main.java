@@ -116,11 +116,14 @@ public class Main {
 //        String s = "abcabcbb";
 //        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
 
-        String s = "barfoofoobarthefoobarman";
-        String[] words = {"bar", "foo", "the"};
+//        String s = "barfoofoobarthefoobarman";
+//        String[] words = {"bar", "foo", "the"};
+//
+//        System.out.println("Pro 30: " + new Pro30().findSubstring(s, words));
 
-        System.out.println("Pro 30: " + new Pro30().findSubstring(s, words));
 
+        String s = "ADOBECODEBANC", t = "ABC";
+        System.out.println("Pro 76: " + new Pro76().minWindow(s, t) );
 
     }
 
