@@ -122,8 +122,12 @@ public class Main {
 //        System.out.println("Pro 30: " + new Pro30().findSubstring(s, words));
 
 
-        String s = "ADOBECODEBANC", t = "ABC";
-        System.out.println("Pro 76: " + new Pro76().minWindow(s, t) );
+//        String s = "ADOBECODEBANC", t = "ABC";
+//        System.out.println("Pro 76: " + new Pro76().minWindow(s, t) );
+
+
+        String   s = "paper", t = "title";
+        System.out.println("Pro 205: " + new Pro205().isIsomorphic(s, t));
 
     }
 
