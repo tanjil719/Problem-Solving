@@ -126,8 +126,15 @@ public class Main {
 //        System.out.println("Pro 76: " + new Pro76().minWindow(s, t) );
 
 
-        String   s = "paper", t = "title";
-        System.out.println("Pro 205: " + new Pro205().isIsomorphic(s, t));
+//        String   s = "paper", t = "title";
+//        System.out.println("Pro 205: " + new Pro205().isIsomorphic(s, t));
+
+
+        int array[] = new int[]{1,0,1,1};
+
+        int k = 1;
+
+        System.out.println("Pro 219: " + new Pro219().containsNearbyDuplicate(array, k));
 
     }
 
