@@ -130,12 +130,17 @@ public class Main {
 //        System.out.println("Pro 205: " + new Pro205().isIsomorphic(s, t));
 
 
-        int array[] = new int[]{1,0,1,1};
+//        int array[] = new int[]{1,0,1,1};
+//
+//        int k = 1;
+//
+//        System.out.println("Pro 219: " + new Pro219().containsNearbyDuplicate(array, k));
 
-        int k = 1;
 
-        System.out.println("Pro 219: " + new Pro219().containsNearbyDuplicate(array, k));
+        int array[] = new int[]{0,3,7,2,5,8,4,6,0,1};
 
+
+        System.out.println("Pro 128: " + new Pro128().longestConsecutive(array) );
     }
 
 
