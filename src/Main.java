@@ -142,9 +142,13 @@ public class Main {
 //
 //        System.out.println("Pro 128: " + new Pro128().longestConsecutive(array) );
 
-        int array[] = new int[]{0,2,3,4,6,8,9};
+//        int array[] = new int[]{0,2,3,4,6,8,9};
+//
+//        System.out.println("Pro 228: " + new Pro228().summaryRanges(array) );
 
-        System.out.println("Pro 228: " + new Pro228().summaryRanges(array) );
+        int points[][] = new int[][]{{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
+
+        System.out.println("Pro 452: " + new Pro452().findMinArrowShots(points) );
     }
 
 
@@ -173,4 +177,3 @@ public class Main {
 //
 //        return false;
 //    }
-
