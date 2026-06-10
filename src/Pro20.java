@@ -16,6 +16,7 @@ public class Pro20 {
                 if (c == '}' && top != '{') return false;
                 if (c == ']' && top != '[') return false;
             }
+
         }
 
         return stack.isEmpty();
