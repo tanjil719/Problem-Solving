@@ -146,9 +146,15 @@ public class Main {
 //
 //        System.out.println("Pro 228: " + new Pro228().summaryRanges(array) );
 
-        int points[][] = new int[][]{{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
+//        int points[][] = new int[][]{{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
+//
+//        System.out.println("Pro 452: " + new Pro452().findMinArrowShots(points) );
 
-        System.out.println("Pro 452: " + new Pro452().findMinArrowShots(points) );
+
+        String path = "/home//foo/";
+
+        System.out.println("Pro 71: " + new Pro71().simplifyPath(path) );
+
     }
 
 
