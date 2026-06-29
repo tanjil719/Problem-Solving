@@ -151,9 +151,14 @@ public class Main {
 //        System.out.println("Pro 452: " + new Pro452().findMinArrowShots(points) );
 
 
-        String path = "/home//foo/";
+//        String path = "/home//foo/";
+//
+//        System.out.println("Pro 71: " + new Pro71().simplifyPath(path) );
 
-        System.out.println("Pro 71: " + new Pro71().simplifyPath(path) );
+
+        String s = "(7+(4+5+2)-3)+(6+8)";
+
+        System.out.println("Pro 224: " + new Pro224().calculate(s) );
 
     }
 
