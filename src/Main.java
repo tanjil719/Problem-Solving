@@ -10,6 +10,28 @@ public class Main {
         return head;
     }
 
+    private static Nnode createRandomLinkedList(Integer[][] values) {
+        if (values == null || values.length == 0) return null;
+
+        Nnode[] nodes = new Nnode[values.length];
+        for (int i = 0; i < values.length; i++) {
+            nodes[i] = new Nnode(values[i][0]);
+        }
+
+        for (int i = 0; i < values.length; i++) {
+            if (i + 1 < values.length) {
+                nodes[i].next = nodes[i + 1];
+            }
+
+            Integer randomIndex = values[i][1];
+            if (randomIndex != null) {
+                nodes[i].random = nodes[randomIndex];
+            }
+        }
+
+        return nodes[0];
+    }
+
     private static void printLinkedList(ListNode head) {
         ListNode current = head;
         while (current != null) {
@@ -192,16 +214,27 @@ public class Main {
 //        System.out.println("Pro int: " + new ProInt().removeDupli(array) );
 
 
-        int arr[] = new int[]{1, 2, 4};
-        int arr1[] = new int[]{1, 3, 4};
+//        int arr[] = new int[]{1, 2, 4};
+//        int arr1[] = new int[]{1, 3, 4};
 
 
 //        System.out.println("Pro 2: " + new Pro2().addTwoNumbers(createLinkedList(arr), createLinkedList(arr1)) );
 
-        System.out.println("Pro 2: " + new Pro21().mergeTwoLists(createLinkedList(arr), createLinkedList(arr1)));
+//        System.out.println("Pro 2: " + new Pro21().mergeTwoLists(createLinkedList(arr), createLinkedList(arr1)));
+
+
+        Nnode head = createRandomLinkedList(new Integer[][]{
+                {7, null},
+                {13, 0},
+                {11, 4},
+                {10, 2},
+                {1, 0}
+        });
+
+        System.out.println("Pro 138: " + new Pro138().copyRandomList(head) );
+
 
     }
-
 
 }
 //
