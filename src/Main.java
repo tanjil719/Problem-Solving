@@ -1,8 +1,35 @@
 public class Main {
+    private static ListNode createLinkedList(int[] values) {
+        if (values.length == 0) return null;
+        ListNode head = new ListNode(values[0]);
+        ListNode current = head;
+        for (int i = 1; i < values.length; i++) {
+            current.next = new ListNode(values[i]);
+            current = current.next;
+        }
+        return head;
+    }
+
+    private static void printLinkedList(ListNode head) {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.val + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+
     public static void main(String[] args) {
 //        String s = "A man, a plan, a canal: Panama";
 //        boolean result = isPalindrome(s);
 //        System.out.println(result);
+
+//        Pro2 pro2 = new Pro2();
+//        ListNode l1 = createLinkedList(new int[]{2, 4, 3});
+//        ListNode l2 = createLinkedList(new int[]{5, 6, 4});
+//        ListNode result = pro2.addTwoNumbers(l1, l2);
+//        System.out.println("Pro2 result: ");
+//        printLinkedList(result);
 
 //       Problem88 problem88 = new Problem88();
 //       problem88.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2);
@@ -156,9 +183,20 @@ public class Main {
 //        System.out.println("Pro 71: " + new Pro71().simplifyPath(path) );
 
 
-        String s = "(7+(4+5+2)-3)+(6+8)";
+//        String s = "(7+(4+5+2)-3)+(6+8)";
+//
+//        System.out.println("Pro 224: " + new Pro224().calculate(s) );
 
-        System.out.println("Pro 224: " + new Pro224().calculate(s) );
+
+//        int[] array = new int[]{1,2,3,4,0,5,6,0,1,1,3};
+//        System.out.println("Pro int: " + new ProInt().removeDupli(array) );
+
+
+        int arr[] = new int[]{2,4,3};
+        int arr1[] = new int[]{5,6,4};
+
+
+        System.out.println("Pro 2: " + new Pro2().addTwoNumbers(createLinkedList(arr), createLinkedList(arr1)) );
 
     }
 
