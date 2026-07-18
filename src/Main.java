@@ -192,11 +192,13 @@ public class Main {
 //        System.out.println("Pro int: " + new ProInt().removeDupli(array) );
 
 
-        int arr[] = new int[]{2,4,3};
-        int arr1[] = new int[]{5,6,4};
+        int arr[] = new int[]{1, 2, 4};
+        int arr1[] = new int[]{1, 3, 4};
 
 
-        System.out.println("Pro 2: " + new Pro2().addTwoNumbers(createLinkedList(arr), createLinkedList(arr1)) );
+//        System.out.println("Pro 2: " + new Pro2().addTwoNumbers(createLinkedList(arr), createLinkedList(arr1)) );
+
+        System.out.println("Pro 2: " + new Pro21().mergeTwoLists(createLinkedList(arr), createLinkedList(arr1)));
 
     }
 
