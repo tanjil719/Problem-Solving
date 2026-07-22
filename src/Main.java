@@ -223,16 +223,31 @@ public class Main {
 //        System.out.println("Pro 2: " + new Pro21().mergeTwoLists(createLinkedList(arr), createLinkedList(arr1)));
 
 
-        Nnode head = createRandomLinkedList(new Integer[][]{
-                {7, null},
-                {13, 0},
-                {11, 4},
-                {10, 2},
-                {1, 0}
-        });
+//        Nnode head = createRandomLinkedList(new Integer[][]{
+//                {7, null},
+//                {13, 0},
+//                {11, 4},
+//                {10, 2},
+//                {1, 0}
+//        });
 
-        System.out.println("Pro 138: " + new Pro138().copyRandomList(head) );
+//        System.out.println("Pro 138: " + new Pro138().copyRandomList(head) );
 
+//        String s = "bcabc";
+//        System.out.println("Pro 1081: " + new Pro3501().smallestSubsequence(s) );
+
+//        int[][] matrix = {
+//                {1, 5}, {0, 6}, {0, 4}
+//        };
+
+
+
+        int[][] matrix = {
+                {0, 7}, {0,12}
+        };
+
+        String s = "0101110001101";
+        System.out.println("Pro 3501: " + new Pro3501().maxActiveSectionsAfterTrade(s, matrix));
 
     }
 
