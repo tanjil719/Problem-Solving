@@ -249,14 +249,18 @@ public class Main {
 //        System.out.println("Pro 3501: " + new Pro3501().maxActiveSectionsAfterTrade(s, matrix));
 
 
-        int[] array = new int[]{3, 5};
+        int[] array = new int[]{1,2,3,4,5};
 //        int[] array = new int[]{1,2,3,4,5};
 
-        int left = 1;
-        int right = 2;
+//        int left = 1;
+//        int right = 2;
 
-        System.out.println("Pro 3501: " + new Pro92().reverseBetween(createLinkedList(array), left, right) );
 
+        int k = 2;
+
+//        System.out.println("Pro 92: " + new Pro92().reverseBetween(createLinkedList(array), left, right) );
+
+        System.out.println("Pro 25: " + new Pro25().reverseKGroup(createLinkedList(array), k) );
 
     }
 
