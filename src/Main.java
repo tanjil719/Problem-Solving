@@ -241,13 +241,22 @@ public class Main {
 //        };
 
 
+//        int[][] matrix = {
+//                {0, 7}, {0,12}
+//        };
+//
+//        String s = "0101110001101";
+//        System.out.println("Pro 3501: " + new Pro3501().maxActiveSectionsAfterTrade(s, matrix));
 
-        int[][] matrix = {
-                {0, 7}, {0,12}
-        };
 
-        String s = "0101110001101";
-        System.out.println("Pro 3501: " + new Pro3501().maxActiveSectionsAfterTrade(s, matrix));
+        int[] array = new int[]{3, 5};
+//        int[] array = new int[]{1,2,3,4,5};
+
+        int left = 1;
+        int right = 2;
+
+        System.out.println("Pro 3501: " + new Pro92().reverseBetween(createLinkedList(array), left, right) );
+
 
     }
 
