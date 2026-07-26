@@ -268,7 +268,13 @@ public class Main {
 
 //        System.out.println("Pro 82: " + new Pro82().deleteDuplicates(createLinkedList(array)));
 
-        System.out.println("Pro 3536: " + new Pro3536().maxProduct(1841));
+//        System.out.println("Pro 3536: " + new Pro3536().maxProduct(1841));
+
+        int[] array = new int[]{1,4,3,2,5,2};
+        int k = 3;
+
+        System.out.println("Pro 86: " + new Pro86().partition(createLinkedList(array), k) );
+
 
     }
 
