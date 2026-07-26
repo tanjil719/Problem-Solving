@@ -250,7 +250,7 @@ public class Main {
 
 
 //        int[] array = new int[]{1,2,3,4,5};
-        int[] array = new int[]{1,2,3,4,4,5,5,5,6};
+//        int[] array = new int[]{1,2,3,4,4,5,5,5,6};
 //        int[] array = new int[]{1,2,3,4,5};
 
 //        int left = 1;
@@ -266,7 +266,9 @@ public class Main {
 //        System.out.println("Pro 3514: " + new Pro3514().uniqueXorTriplets(array));
 
 
-        System.out.println("Pro 82: " + new Pro82().deleteDuplicates(createLinkedList(array)));
+//        System.out.println("Pro 82: " + new Pro82().deleteDuplicates(createLinkedList(array)));
+
+        System.out.println("Pro 3536: " + new Pro3536().maxProduct(1841));
 
     }
 
