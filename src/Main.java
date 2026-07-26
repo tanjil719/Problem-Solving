@@ -250,20 +250,23 @@ public class Main {
 
 
 //        int[] array = new int[]{1,2,3,4,5};
-        int[] array = new int[]{6, 7, 8, 9};
+        int[] array = new int[]{1,2,3,4,4,5,5,5,6};
 //        int[] array = new int[]{1,2,3,4,5};
 
 //        int left = 1;
 //        int right = 2;
 
 
-        int k = 2;
+//        int k = 2;
 
 //        System.out.println("Pro 92: " + new Pro92().reverseBetween(createLinkedList(array), left, right) );
 
 //        System.out.println("Pro 25: " + new Pro25().reverseKGroup(createLinkedList(array), k) );
 
-        System.out.println("Pro 3514: " + new Pro3514().uniqueXorTriplets(array));
+//        System.out.println("Pro 3514: " + new Pro3514().uniqueXorTriplets(array));
+
+
+        System.out.println("Pro 82: " + new Pro82().deleteDuplicates(createLinkedList(array)));
 
     }
 
