@@ -270,10 +270,13 @@ public class Main {
 
 //        System.out.println("Pro 3536: " + new Pro3536().maxProduct(1841));
 
-        int[] array = new int[]{1,4,3,2,5,2};
-        int k = 3;
+        int[] array = new int[]{2, 0, 2, 1, 0, 1, 0};
+//        int k = 3;
 
-        System.out.println("Pro 86: " + new Pro86().partition(createLinkedList(array), k) );
+//        System.out.println("Pro 86: " + new Pro86().partition(createLinkedList(array), k) );
+
+        new Pro75().sortColors(array);
+//        System.out.println(new Pro75().sortColors(array));
 
 
     }
