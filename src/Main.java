@@ -162,8 +162,8 @@ public class Main {
 //
 //        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
-//        String s = "abcabcbb";
-//        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
+        String s = "abcabcbb";
+        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
 
 //        String s = "barfoofoobarthefoobarman";
 //        String[] words = {"bar", "foo", "the"};
@@ -275,7 +275,7 @@ public class Main {
 
 //        System.out.println("Pro 86: " + new Pro86().partition(createLinkedList(array), k) );
 
-        new Pro75().sortColors(array);
+//        new Pro75().sortColors(array);
 //        System.out.println(new Pro75().sortColors(array));
 
 
