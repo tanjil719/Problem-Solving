@@ -163,7 +163,7 @@ public class Main {
 //        System.out.println("Pro 209: " + new Pro209().minSubArrayLen(target, nums) );
 
         String s = "abcabcbb";
-        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
+//        System.out.println("Pro 3: " + new Pro3().lengthOfLongestSubstring(s) );
 
 //        String s = "barfoofoobarthefoobarman";
 //        String[] words = {"bar", "foo", "the"};
@@ -270,7 +270,7 @@ public class Main {
 
 //        System.out.println("Pro 3536: " + new Pro3536().maxProduct(1841));
 
-        int[] array = new int[]{2, 0, 2, 1, 0, 1, 0};
+        int[] array = new int[]{ 1, 5, 2};
 //        int k = 3;
 
 //        System.out.println("Pro 86: " + new Pro86().partition(createLinkedList(array), k) );
@@ -278,6 +278,8 @@ public class Main {
 //        new Pro75().sortColors(array);
 //        System.out.println(new Pro75().sortColors(array));
 
+
+        System.out.println("Pro : 486" + new Pro486().predictTheWinner(array) );
 
     }
 
